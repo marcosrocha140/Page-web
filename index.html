@@ -1,57 +1,74 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formatação de Texto</title>
-    <style>
-
-        body{
-            background-color: rgb(6, 185, 240); font-family: Arial, Helvetica, sans-serif; font-size: 20px;
-        }
-        h1{
-            color: crimson;
-            background-color: darkblue;
-        }
-        h2{
-            color: crimson;
-            background-color: darkblue;
-        }
-
-        p{
-            text-align: justify;
-        }
-        
-    </style>
+    <title>Desafio 1</title>
 </head>
-
 <body>
+    <h1>Minhas redes sociais</h1>
+    <hr>
+    <h2>Quem sou eu?</h2>
+    <img src="mrx.png" alt="fotomrx">
+    <p>Meu nome é <strong>MRX</strong> gosto de jogos (video games) tenho um canal no YT, onde <br>
+    gravo gameplays de Warzone. não sou muito bom, mas tento melhorar a cada partida(embora nao mude muito kkkkk).</p>
+    <h2>Como falar comigo?</h2>
 
-    <h1>Texto em forma de codigos </h1>
-    <pre>
-<code>
-    String nome;
-    Int idade;
+    <ul>
+        <li> <img src="fav/favicon-16x16.png" alt="youtube"> <a href="https://www.youtube.com/channel/UCSJ9c4vt7GP04mOG9r5lccA" target="_blank" rel="external"> /MRX </a>
+            - se inscreve lá no canal do youtube.
+        </li>
+        <li> <img src="favicon-16x16.png" alt=""> <a href="https://www.instagram.com/oficial.mrx" target="_blank" rel="external">/Oficial.mrx</a> - Me siga no instagram</li>
+        <li> <img src="face-16x16.png" alt="facebook"> <a href="https://www.facebook.com/The-MRX-256675417838949" target="_blank" rel="external">/The MRX</a> - Curte a pagina do canal do facebook.</li>
+    </ul>
 
-    System.out.println("Meu Nome é "+nome, "e Minha idade é "+idade);
-</code>
-</pre>
+    <dl>
+        <dt>O Plano Project Nova Six</dt>
+        <dd>O plano Project nova 6, foi um plano idealizado por Dragovich que pretendia atacar os EUA <br>
+        com um gás chamado nov6, que era um gás altamente letal que quando inalado a pessoa morria em segundos <br>
+    porém ele foi pego antes de iniciar o ataque!</dd>
+    </dl>
 
-    <h2>Citações Simples</h2>
-    <p>como diria um amigo: <q><em>O importante é não desistir e não desanimar!</em></q> </p>
 
-    <h2>Citações Compostas</h2>
-    <p>Estou estudando Sistemas de informação. de acordo Daniel Sales Professor da Unicatólica</p>
-    <blockquote>
-        A área de SI é está em constante procura pelas empresas no mundo e com a pandemia ese numero <br>
-        tem aumentando devido a falta de profissionais na área.
-    </blockquote>
+    <table>
+        <th>Horários das Lives</th>
+        <tr>
+            <td><strong>Segunda:</strong> 21:00</td>
+        </tr>
+        <tr>
+            <td> <strong>Terça:</strong> 22:00</td>
+        </tr>
+        <tr>
+            <td> <strong>Quinta:</strong> 23:00</td>
+        </tr>
+    </table>
 
-    <h2>Abreviações</h2>
-    <p>Estou estundando <abbr title="Sistemas de Informação">SI</abbr>, gosto muito da área de <abbr title="Tecnologia da Informação">TI.</abbr></p>
+    <h2>Cortes de Gameplays</h2>
+    <video poster="imagens/polina.jpg" width="500" controls>
+        <source src="media/war.mp4" type="video/mp4">
+    </video>
+
+    <h1>Rebirth Island Zombies</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/03uJjDGMOp0" 
+    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+    encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h2>Não ousa esse audio</h2>
+    <audio src="zombies.mp3" controls></audio>
+    <p>Ficou curioso(a) pelo audio, não baixe <a href="zombies.mp3" download="zombies.mp3" type="audio/mpeg"> aqui</a></p>
+
+    <h2>Clan de Jogos</h2>
+
+    <h3>Project Nova Six</h3>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/logo-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/logo-m.png" type="image/png">
+        <img src="imagens/logo-g.png" alt="logo">
+    </picture>
+
     
 </body>
-
 </html>
